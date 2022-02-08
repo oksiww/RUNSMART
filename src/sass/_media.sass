@@ -11,6 +11,14 @@
             font-size: 34px
         &_descr
             font-size: 18px
+    .catalog
+        &-item
+            width: 280px
+    .reviews
+        &_text
+            width: 600px
+
+
 
 @media (max-width: 991px)
     .container
@@ -70,6 +78,39 @@
             width: 250px
             height: 50px
             font-size: 14px
+    .carousel
+        &_inner
+            width: 500px
+        .slick-slide
+            width: 500px
+            img
+                width: 100%
+    .catalog
+        &__content 
+            justify-content: space-around
+        &__tabs
+            margin-top: 50px
+        .title
+            font-size: 26px
+        &_tab
+            font-size: 16px
+            width: 200px
+    .reviews
+        padding-bottom: 50px
+        .title
+            font-size: 26px
+        &_name
+            font-size: 16px
+        &_descr
+            font-size: 14px
+        &_img
+            width: 140px
+            height: 140px
+        &_text
+            width: 500px
+        &_item
+            margin-top: 50px
+
 
 @media (max-width: 767px)
     .container
@@ -138,6 +179,34 @@
             text-align: center
         .form
             margin: 20px auto
+    .carousel
+        padding-bottom: 50px
+    .catalog
+        padding-bottom: 70px
+        .title
+            font-size: 22px
+        &-item
+            width: 350px
+        &__tabs
+            margin-top: 30px
+        &__tab
+            width: 180px
+            font-size: 16px
+            line-height: 45px
+        &__content
+            margin-top: 40px
+    .reviews
+        .title
+            font-size: 22px
+        &_name
+            font-size: 14px
+        &_descr
+            font-size: 12px
+        &_img
+            width: 120px
+            height: 120px
+        &_text
+            width: 350px
 
 @media (max-width: 575px)
     .container
@@ -179,7 +248,45 @@
             font-size: 20px
         &_descr
             font-size: 13px
-                
+    .carousel
+        &_inner
+            width: 300px
+        .slick-slide
+            width: 300px
+        .slick-track
+            height: 250px
+    .catalog
+        padding-bottom: 50px
+        .title
+            font-size: 20px
+        &__tabs
+            flex-direction: column
+            margin-top: 20px
+        &__tab
+            margin-top: 10px
+        &-item
+            width: 280px
+    .reviews
+        padding-bottom: 50px
+        .title
+            font-size: 20px
+        &_name
+            font-size: 14px
+        &_descr
+            font-size: 12px
+        &_img
+            width: 140px
+            height: 140px
+        &_text
+            width: 280px
+            margin-top: 15px
+            text-align: center
+        br
+            display: none
+        &_item
+            flex-direction: column
+            align-items: center
+            margin-top: 30px
     
                 
 
